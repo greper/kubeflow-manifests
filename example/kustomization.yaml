@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
 # Cert-Manager
-- ../common/cert-manager/cert-manager/base
+#- ../common/cert-manager/cert-manager/base
 - ../common/cert-manager/kubeflow-issuer/base
 # Istio
 - ../common/istio-1-14/istio-crds/base
