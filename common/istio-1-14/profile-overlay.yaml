@@ -50,5 +50,5 @@ spec:
 
     # Disable EgressGateway
     egressGateways:
-    - enabled: false
+    - enabled: true
       name: istio-egressgateway
